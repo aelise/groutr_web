@@ -6,7 +6,7 @@ include_in_footer: true
 ---
 
 **Last updated**  
-February 12, 2023 
+September 26, 2025
 
 # Privacy Policy
 This privacy notice for Neural Appworks, LLC ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
@@ -25,7 +25,7 @@ This summary provides key points from our privacy notice, but you can find out m
 
 **Do we process any sensitive personal information?** We do not process sensitive personal information.
 
-**Do we receive any information from third parties?** We do not receive any information from third parties.
+**Do we receive any information from third parties?** We may receive limited information from service providers (e.g., analytics and crash reporting), including approximate location (city/country) derived from IP. We do not buy data from brokers and we do not request or store precise GPS location.
 
 **How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. 
 
@@ -85,7 +85,7 @@ The information we collect includes:
 
 * Device Data. We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information.
 
-* Location Data. We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+* Location Data. We may collect approximate location inferred from IP address for security, fraud prevention, analytics, and to show contextual (non-personalized) ads. We do not collect precise GPS location.
 
 ## 2. HOW DO WE PROCESS YOUR INFORMATION?
 
@@ -106,7 +106,7 @@ If you are located in the EU or UK, this section applies to you.
 
 The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:
 
-* Consent. We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw your consent at any time. Click here to learn more.
+* Consent. We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw your consent at any time. 
 
 * Performance of a Contract. We may process your personal information when we believe it is necessary to fulfill our contractual obligations to you, including providing our Services or at your request prior to entering into a contract with you.
 
@@ -154,6 +154,13 @@ Vendors, Consultants, and Other Third-Party Service Providers. We may share your
 
 * Data Analytics Services
 
+* Crash/Error Monitoring
+
+* Cloud Hosting/Storage
+
+* Payment/IAP Processors
+
+We configure advertising to be contextual (non-personalized) and appropriate for all ages. We do not permit interest-based (behavioral) ads.
 
 We also may need to share your personal information in the following situations:
 
@@ -182,13 +189,11 @@ We have implemented appropriate and reasonable technical and organizational secu
 
 ## 8. DO WE COLLECT INFORMATION FROM MINORS?
 
-In Short: We do not knowingly collect data from or market to children under 18 years of age.
-
-We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at contact@neuralappworks.com.
+In Short: We do not knowingly collect personal information from children under 13 years of age beyond what is necessary to support the internal operations of the Services (e.g., security, crash reporting, contextual ads, and basic analytics). The app is suitable for all ages; however, children should not send us personal information (e.g., name or contact details). If we learn that we have collected personal information from a child under 13, we will delete it. If you become aware of any data we may have collected from children under age 13, please contact us at contact@neuralappworks.com.
 
 ## 9. WHAT ARE YOUR PRIVACY RIGHTS?
 
-In Short: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.
+In Short: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information. You may exercise your privacy rights at any time by contacting us.
 
 In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below.
 
@@ -214,7 +219,7 @@ In Short: Yes, if you are a resident of California, you are granted specific rig
 
 California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
 
-If you are under 18 years of age, reside in California, and have a registered account with Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g., backups, etc.).
+If you are under 18, reside in California, and have provided information to us, you may request its removal by contacting us. We will make reasonable efforts to delete such data from our records, subject to legal retention requirements.
 
 ## CCPA Privacy Notice
 
@@ -233,12 +238,12 @@ We have collected the following categories of personal information in the past t
 
 | Category	| Examples	| Collected |
 | ------------- | ------------- |
-| Identifiers | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name |	NO |
+| Identifiers | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name |	YES |
 | Personal information categories listed in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information | NO |
 | Protected classification characteristics under California or federal law | Gender and date of birth | NO |
-|Commercial information|Transaction information, purchase history, financial details, and payment information|NO |
+|Commercial information|Transaction information, purchase history, financial details, and payment information|YES |
 |Biometric information|Fingerprints and voiceprints|NO|
-|Internet or other similar network activity|Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements|NO|
+|Internet or other similar network activity|Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements|YES|
 |Geolocation data|Device location|NO|
 |Audio, electronic, visual, thermal, olfactory, or similar information|Images and audio, video or call recordings created in connection with our business activities|NO|
 |Professional or employment-related information|Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us|NO|
@@ -271,7 +276,7 @@ We may disclose your personal information with our service providers pursuant to
 
 We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be "selling" of your personal information.
 
-Neural Appworks, LLC has not sold or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. Neural Appworks, LLC has disclosed the following categories of personal information to third parties for a business or commercial purpose in the preceding twelve (12) months:
+Neural Appworks, LLC has not sold or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. We use contextual advertising only and do not “sell” or “share” personal information for cross-context behavioral advertising under the CPRA. Neural Appworks, LLC has disclosed the following categories of personal information to third parties for a business or commercial purpose in the preceding twelve (12) months:
 
 The categories of third parties to whom we disclosed personal information for a business or commercial purpose can be found under "WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?".
 
