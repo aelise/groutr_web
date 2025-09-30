@@ -13,22 +13,11 @@ Yes, the app can make any color! The color picker tool has an outer ring to choo
 <br>
 <br>
 
-### I've found the perfect grout color! Now what? 
-We've got all the info you need to go from grout color inspiration to grouted artwork. [Check out our blog for more]({{ '/blog/' | relative_url }}).
-
-Some recent topics: 
-* Grouting basics for mosaic
-* How to make custom grout colors (coming soon)
-* Grout colorant reviews (coming soon)
-* How to grout in multiple colors (coming soon)
-* Hex codes for common grout colors (coming soon)
-<br>
-<br>
-
 ### The app isn't detecting the grout lines in my photo. Help?
 Some things to try: 
-- **Crop your image**: Sometimes, the app has difficulty detecting very small tesserae or tiles. To improve the results, try zooming in on your artwork or cropping the image to a smaller section of your mosaic. 
-- **Adjust the settings**: You can change the tesserae size setting to adjust which grout lines are detected. If the app missed some grout lines, try decreasing the tesserae size setting. On the other hand, if there are too many grout lines detected, increase the tesserae size. 
+- **Crop your image**: Sometimes, the app has difficulty detecting very small tesserae or tiles. To improve the results, try cropping the image to a smaller section of your tile pattern. 
+- **Try a different model**: Groutr now has two grout-detection algorithms. If one isn't working for your image, the other may perform better. Both are free to try!  
+- **Adjust the settings (v1 only)**: If you are using Groutr v1 for mosaic artwork, you can change the tesserae size setting to adjust which grout lines are detected. If the app missed some grout lines, try decreasing the tesserae size setting. On the other hand, if there are too many grout lines detected, increase the tesserae size. 
 - [**Send us your photo**](mailto:contact@neuralappworks.com): If you're still having trouble, feel free to send us your photo! We're always working to improve our algorithm and would love to see what works and what doesn't.
 <br>
 <br>

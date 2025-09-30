@@ -117,7 +117,7 @@ Contributions and any intellectual property rights or other proprietary rights a
 
 ## **8. LIABILITY**
 
-This app is a visualizer. Results may be approximate and are for informational purposes only. Use your own judgment and confirm important decisions independently. **you’re responsible for how you use the app.**
+This app is a visualizer. Results may be approximate and are for informational purposes only. Use your own judgment and confirm important decisions independently. **You’re responsible for how you use the app.**
 
 8.1 Use at your Own Risk.
 
