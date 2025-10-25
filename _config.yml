@@ -1,8 +1,8 @@
 # SEO content
 
-title : The Groutr App
-tagline: The ultimate grout color simulator for mosaic artists 
-description: Tired of the frustration that comes with choosing the wrong grout color and ruining hours of hard work? This app removes the guesswork. Upload a photo of your mosaic work-in-progress or take one within the app, and watch as the advanced algorithm detects and recolors the grout lines with your desired hue.
+title : Groutr — Grout Color Visualizer for Tile, Mosaic, and More
+tagline: Instantly recolor grout lines in your photos
+description: Choose grout colors with confidence. Groutr lets you see how any grout shade — or even multiple shades — will look on your own tiles and mosaics before you commit.
 url: https://groutr.app/
 logo: assets/appicon.png
 
@@ -24,7 +24,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Groutr                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : The ultimate grout color visualizer for artists!
+app_description                           : Try grout colors on your tile
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -79,7 +79,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/header.png                  # Replace with alternative image path or image URL.
+cover_image                               : assets/header.JPG                  # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.7
 

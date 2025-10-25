@@ -22,7 +22,11 @@
             <script>
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
-                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
+                    {% if file.extname == ".mov" %}
+                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}?v={{ site.time | date: "%s" }}" type="video/quicktime">');
+                    {% else %}
+                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}?v={{ site.time | date: "%s" }}" type="video/mp4">');
+                    {% endif %}
                     console.log("{{ file.path }}");
                 });
             </script>
@@ -30,7 +34,7 @@
             <script>
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
-                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
+                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}?v={{ site.time | date: "%s" }}" type="video/ogg">');
                     console.log("{{ file.path }}");
                 });
             </script>
@@ -38,7 +42,7 @@
         <script>
             $(function() {
                 $(".videoContainer").removeClass("hidden");
-                $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
+                $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}?v={{ site.time | date: "%s" }}" type="video/webm">');
                 console.log("{{ file.path }}");
             });
         </script>

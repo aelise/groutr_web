@@ -401,11 +401,13 @@ nav > ul li a:active {
 	clip-path: url(#screenMask);
 	margin-left: 26px;
 	margin-top: 23px;
+    background-color: #ffffff; // ensure letterbox area shows white behind video
 }
 
 .videoContainer > video {
 	width: 349px;
 	height: 755px;
+    background-color: #ffffff; // fallback in case the video element paints background
 }
 
 @media only screen and (max-width: 1070px) {
