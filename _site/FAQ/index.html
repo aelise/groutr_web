@@ -39,13 +39,33 @@
 	<link rel="stylesheet" href="/main.css">
 
 	
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VFBN3C9HD"></script>
+<!-- Google tag (gtag.js) with Consent Mode v2 -->
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){dataLayer.push(arguments);} 
+  // Default: deny analytics/ad storage until user consents
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'functionality_storage': 'granted',
+    'security_storage': 'granted'
+  });
+
+  // If stored consent exists, update immediately before loading gtag
+  try {
+    var consent = localStorage.getItem('cookie_consent_analytics');
+    if (consent === 'granted') {
+      gtag('consent', 'update', { 'analytics_storage': 'granted' });
+    }
+  } catch (e) {}
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VFBN3C9HD"></script>
+<script>
   gtag('js', new Date());
 
+  // Configure GA4. If consent remains denied, GA will operate in cookieless pings only.
   gtag('config', 'G-5VFBN3C9HD');
 </script>
 
@@ -181,8 +201,9 @@ We hope these tips help you get the results you’re looking for. <strong>Don’
 	</div>
 	
 	
-	<p class="footerText footerCredit">Header photo by <a href="https://www.pexels.com/@eva-bronzini/">Eva Bronzini</a> on Pexels</p>
+	<p class="footerText footerCredit">Header photo by <a href="https://www.pexels.com/@eva-bronzini/">Eva Bronzini</a> on Pexels • Apple and the Apple logo are trademarks of Apple Inc. • Google Play and the Google Play logo are trademarks of Google LLC</p>
 	
+
 </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
