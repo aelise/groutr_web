@@ -395,19 +395,27 @@ nav > ul li a:active {
 }
 
 .videoContainer {
-	width: 349px;
-	height: 755px;
-	-webkit-clip-path: url(#screenMask);
-	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
+    width: 349px;
+    height: 755px;
+    -webkit-clip-path: url(#screenMask);
+    clip-path: url(#screenMask);
+    margin-left: 26px;
+    margin-top: 23px;
     background-color: #ffffff; // ensure letterbox area shows white behind video
+    position: relative;
+    overflow: hidden;
+    // Adjust this to crop the top of the video uniformly across sizes
+    --top-crop: 40px; // e.g., 40px hides ~5% of 755px
 }
 
 .videoContainer > video {
-	width: 349px;
-	height: 755px;
+    position: absolute;
+    left: 0;
+    top: calc(-1 * var(--top-crop));
+    width: 100%;
+    height: calc(100% + var(--top-crop));
     background-color: #ffffff; // fallback in case the video element paints background
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 1070px) {
@@ -422,17 +430,17 @@ nav > ul li a:active {
 		margin-top: 22px;
 	}
 
-	.videoContainer {
-		width: 322px;
-		height: 698px;
-		margin-left: 24px;
-		margin-top: 22px;
-	}
-	
-	.videoContainer > video {
-		width: 322px;
-		height: 698px;
-	}
+    .videoContainer {
+        width: 322px;
+        height: 698px;
+        margin-left: 24px;
+        margin-top: 22px;
+    }
+    
+    .videoContainer > video {
+        width: 100%;
+        height: calc(100% + var(--top-crop));
+    }
 	
 } 
 
@@ -456,17 +464,17 @@ nav > ul li a:active {
 		margin-top: 17px;
 	}
 
-	.videoContainer {
-		width: 226px;
-		height: 488px;
-		margin-left: 0px;
-		margin-top: 17px;
-	}
+    .videoContainer {
+        width: 226px;
+        height: 488px;
+        margin-left: 0px;
+        margin-top: 17px;
+    }
 
-	.videoContainer > video {
-		width: 226px;
-		height: 488px;
-	}
+    .videoContainer > video {
+        width: 100%;
+        height: calc(100% + var(--top-crop));
+    }
 	
 } 
 
@@ -623,6 +631,11 @@ footer {
 	text-align: center;
 	//padding-top: 70px;
 	padding-bottom: 20px;
+}
+
+// Slightly smaller text specifically for image credit lines
+.footerCredit {
+    font-size: 1.6rem;
 }
 
 .footerIcons {

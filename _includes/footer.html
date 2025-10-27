@@ -62,4 +62,8 @@
 			<a href="{{ site.presskit_download_link }}">Press Kit</a>
 		{% endif %}
 	</div>
+	
+	{% if site.header_image_credit_name and site.header_image_credit_url %}
+	<p class="footerText footerCredit">Header photo by <a href="{{ site.header_image_credit_url }}">{{ site.header_image_credit_name }}</a>{% if site.header_image_credit_provider %} on {{ site.header_image_credit_provider }}{% endif %}</p>
+	{% endif %}
 </footer>

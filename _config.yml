@@ -105,6 +105,12 @@ social_icons_background_color             : "#e6e6e6"
 footer_text_color                         : "#666666"
 
 
+# Header image credit (optional)
+header_image_credit_name                  : Eva Bronzini
+header_image_credit_url                   : https://www.pexels.com/@eva-bronzini/
+header_image_credit_provider              : Pexels
+
+
 
 
 
