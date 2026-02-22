@@ -20,6 +20,7 @@ When you ask ChatGPT, Midjourney, or any other generative AI to "change the grou
 The results from generative AI usually look polished, but aren't true to your tiles: tiles get recolored along with the grout, shapes and textures shift, and the final image—however attractive—no longer represents your actual tile. This can lead to disaster if your actual tile clashes with the grout color you asked for. 
 
 ![Side-by-side comparison: ChatGPT recolored the tiles and grout together, while Groutr changed only the grout lines](/assets/postimages/ai-vs-groutr-hero.png)
+
 *Left: ChatGPT 5.2 asked to change the grout color to cyan. Right: Groutr applied to the same photo. The AI recolored the tiles along with the grout; Groutr changed only the grout lines.*
 
 This isn't a flaw in a specific model, and it's not something better AI will eventually fix. It's a structural mismatch between what generative image AI does (whole-image generation based on learned patterns) and what you actually need: surgical recoloring of a specific region, and only that region, of your photo.
@@ -32,6 +33,7 @@ Grout lines are narrow, often just a few pixels wide in a photo. They vary in wi
 A generative model has no reason to treat grout lines as a distinct, selectable region. It sees a tile floor the same way it sees anything else: a pattern of colors and textures to be reproduced or modified wholesale.
 
 ![Mosaic tile comparison showing ChatGPT hallucinating new tile colors vs Groutr precisely recoloring only the grout](/assets/postimages/ai-mosaic-comparison.png)
+
 *On complex mosaic tile, the breakdown is even more dramatic. ChatGPT recolored the tiles themselves and altered the design. Groutr left the tile untouched.*
 <br>
 
@@ -42,6 +44,7 @@ Groutr doesn't generate a new image. It detects the grout lines in your photo us
 The tile texture, color variation, reflections, and shadows all remain exactly as they are in your original photo. What changes is only the grout.
 
 ![Hex mosaic tile shown with white grout on top and black grout on bottom, same tile surface throughout](/assets/postimages/groutr-hex-comparison.png)
+
 *The same hex tile with white grout (top) and black grout (bottom). The tile surface is pixel-for-pixel identical. Only the grout lines changed.*
 
 The practical difference: you're seeing how *your actual tile* looks with a different grout color. Not a plausible approximation. Not a generated version that happens to look similar. Your tile, your lighting, your photo, with the grout recolored precisely.
